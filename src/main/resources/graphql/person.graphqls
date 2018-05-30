@@ -1,0 +1,14 @@
+type Person {
+    # Soatien first name
+    firstName: String
+    # Soatien last name
+    lastName: String
+    email: String
+    age: Int
+    active: Boolean
+    mission: Mission
+}
+
+type Query {
+    findAllSoatien: [Person]!
+}

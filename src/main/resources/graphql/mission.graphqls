@@ -1,6 +1,7 @@
 type Mission {
     title: String
     description: String
+    client: Employer
 }
 
 extend type Query {
